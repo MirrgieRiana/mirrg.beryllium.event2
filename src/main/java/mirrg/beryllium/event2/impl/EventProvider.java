@@ -1,4 +1,4 @@
-package mirrg.beryllium.event2.core;
+package mirrg.beryllium.event2.impl;
 
 import java.util.TreeMap;
 import java.util.function.Consumer;

@@ -3,9 +3,9 @@ package mirrg.beryllium.event2;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
-import mirrg.beryllium.event2.core.EventProviderBiConsumer;
-import mirrg.beryllium.event2.core.EventProviderConsumer;
-import mirrg.beryllium.event2.core.EventProviderRunnable;
+import mirrg.beryllium.event2.impl.EventProviderBiConsumer;
+import mirrg.beryllium.event2.impl.EventProviderConsumer;
+import mirrg.beryllium.event2.impl.EventProviderRunnable;
 
 public interface IEventProvider<L>
 {

@@ -1,4 +1,4 @@
-package mirrg.beryllium.event2.core;
+package mirrg.beryllium.event2.impl;
 
 public class EventProviderRunnable extends EventProvider<Runnable>
 {
