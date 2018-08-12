@@ -7,6 +7,13 @@ import mirrg.beryllium.event2.impl.EventProviderBiConsumer;
 import mirrg.beryllium.event2.impl.EventProviderConsumer;
 import mirrg.beryllium.event2.impl.EventProviderRunnable;
 
+/**
+ * 単一の種類のイベントが流れるイベントプロバイダーです。
+ * このイベントプロバイダーはmirrg.beryllium.eventのものと比較して、
+ * 複数種類のイベントを統合的に扱うことができない代わりに、
+ * 簡潔で高速なイベント処理を提供します。
+ * また、イベントのクラスにとらわれない自由なイベントの定義ができます。
+ */
 public interface IEventProvider<L>
 {
 
